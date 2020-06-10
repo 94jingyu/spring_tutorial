@@ -125,6 +125,7 @@ public class SampleController {
 		return dto;
 	}
 	
+	// p.148
 	@GetMapping("/ex07")
 	public ResponseEntity<String> ex07() {
 		log.info("/ex07..............");
