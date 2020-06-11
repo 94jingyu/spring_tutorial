@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -8,27 +7,26 @@
 </head>
 <body>
 
-	<!-- form tag Start -->
-	<form action="/sample/exUploadPost" method="post" mutipart/form-data>
-		<div>
-			<input type="file" name="files">
-		</div>
-		<div>
-			<input type="file" name="files">
-		</div>
-		<div>
-			<input type="file" name="files">
-		</div>
-		<div>
-			<input type="file" name="files">
-		</div>
-		<div>
-			<input type="file" name="files">
-		</div>
-		<div>
-			<input type="submit">
-		</div>
-	</form>
-	<!-- form tag End -->
+<form action="/sample/exUploadPost"  method="post" enctype="multiPART/form-data">
+
+ <div>
+   <input type='file' name='files'>
+ </div>
+ <div>
+   <input type='file' name='files'>
+ </div>
+ <div>
+   <input type='file' name='files'>
+ </div>
+ <div>
+   <input type='file' name='files'>
+ </div>
+ <div>
+   <input type='file' name='files'>
+ </div>
+ <div>
+   <input type='submit'>
+ </div>   
+</form>
 </body>
 </html>
