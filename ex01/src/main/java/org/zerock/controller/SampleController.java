@@ -141,6 +141,7 @@ public class SampleController {
 		return new ResponseEntity<>(msg, header, HttpStatus.OK);
 	}
 	
+	// p.150
 	@GetMapping("/exUpload")
 	public void exUpload() {
 		log.info("/exUpload.......");
@@ -154,6 +155,7 @@ public class SampleController {
 			log.info("-----------------------------");
 			log.info("name : " + file.getOriginalFilename());
 			log.info("size : " + file.getSize());
+			
 		});
 	}
 	
