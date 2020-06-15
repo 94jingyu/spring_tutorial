@@ -7,5 +7,5 @@ public interface TimeMapper {
 	@Select("SELECT SYSDATE FROM DUAL")
 	public String getTime();
 	
-	public String getTime2();
+	//public String getTime2();
 }
